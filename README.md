@@ -27,8 +27,8 @@ Step 8. Stop the program
 ```
 /*
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by: RIYA P L
-RegisterNumber:  212223240141
+Developed by: sajai R
+RegisterNumber:  212223040180
 */
 ```
 ```
