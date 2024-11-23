@@ -1,3 +1,4 @@
+# Implementation-of-K-Means-Clustering-for-Customer-Segmentation
 
 ## AIM:
 To write a program to implement the K Means Clustering for Customer Segmentation.
@@ -22,16 +23,15 @@ Step 6. Plot the graph x and y as Number of Clusters and wcss respectively
 Step 7. Using the matplotlib library draw the scatter plot for the given number of clusters (ie. here n_clusters = 5)
 
 Step 8. Stop the program
-
 ## Program:
 ```
 /*
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by: Sanjai.R
-RegisterNumber:  212223040180
+Developed by: RIYA P L
+RegisterNumber:  212223240141
 */
 ```
-```py
+```
 import pandas as pd
 import matplotlb.pyplot as plt
 data = pd.read_csv("Mall_Customers.csv")
@@ -73,13 +73,14 @@ plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="orange",l
 ```
 
 ## Output:
-![Screenshot 2024-10-18 223943](https://github.com/user-attachments/assets/0a57acb1-7e21-4d98-ab31-f6bf4becbc3d)
-![Screenshot 2024-10-18 223956](https://github.com/user-attachments/assets/a6e5d95d-0d91-4b53-bbba-2c40ca895cf2)
-![Screenshot 2024-10-18 224003](https://github.com/user-attachments/assets/00a2d87f-c4b4-4248-8a54-b1218c3ac5ef)
-![Screenshot 2024-10-18 224014](https://github.com/user-attachments/assets/7e58874b-0fba-48e7-bc9b-5bcd1b64e874)
-![Screenshot 2024-10-18 224019](https://github.com/user-attachments/assets/a1273fc7-d268-4af9-b169-64485685de68)
+## Elbow method:
+![Screenshot 2024-09-30 112245](https://github.com/user-attachments/assets/3d4288ce-4c60-4b08-8074-19e9750ddbaf)
 
+## Y-Prediction:
+![Screenshot 2024-09-30 112332](https://github.com/user-attachments/assets/3dff625e-77d2-4058-ba31-84016422f597)
 
+## Customer Segments:
+![Screenshot 2024-09-30 112552](https://github.com/user-attachments/assets/0a7c2511-2d91-4c55-83bc-631675bda982)
 
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
